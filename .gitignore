@@ -1,3 +1,14 @@
+# Ignorer tous les fichiers par défaut
+*
+
+# Sauf le fichier .gitignore lui-même
+!.gitignore
+
+# Ne PAS ignorer les dossiers (nécessaire pour pouvoir annuler l'ignorance de certains fichiers dans des dossiers)
+!*/
+
+# Ignorer les fichiers OpenDocument texte
 *.odt
 
+# Ignorer les fichiers python 
 *.py 
