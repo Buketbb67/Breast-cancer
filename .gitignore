@@ -12,3 +12,9 @@
 
 # Ignorer les fichiers python 
 *.py 
+
+# Garder uniquement ce notebook
+!breastcancer.ipynb 
+
+# Pour dire à Git que tous mes notebook restent en LF 
+*.ipynb text eol=lf
