@@ -3,6 +3,7 @@
 
 # Sauf le fichier .gitignore lui-même
 !.gitignore
+!.gitattributes
 
 # Ne PAS ignorer les dossiers (nécessaire pour pouvoir annuler l'ignorance de certains fichiers dans des dossiers)
 !*/
@@ -14,7 +15,4 @@
 *.py 
 
 # Garder uniquement ce notebook
-!breastcancer.ipynb 
-
-# Pour dire à Git que tous mes notebook restent en LF 
-*.ipynb text eol=lf
+!.breastcancer.html 

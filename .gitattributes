@@ -1,0 +1,4 @@
+# Forcer LF et UTF-8 pour les notebooks
+*.ipynb text eol=lf
+*.py text eol=lf
+*.odt binary
